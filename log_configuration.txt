@@ -1,0 +1,315 @@
+
+Easy Configurator, configuration engine  V_3_3 
+
+log created on Thu Aug 01 11:46:37 2024
+
+Analyzing the project file
+
+Easy Configurator project data_husky.prj
+
+OUTPUTS_TAG
+INPUTS_TAG
+Line 5 --- x                       int16_t
+Line 6 --- y                       int16_t
+Line 7 --- z                       int16_t
+Line 8 --- q1                      int16_t
+Line 9 --- q2                      int16_t
+Line 10 --- q3                      int16_t
+Line 11 --- q4                      int16_t
+Line 12 --- x1                      int16_t
+Line 13 --- y1                      int16_t
+Line 14 --- z1                      int16_t
+Line 15 --- x2                      int16_t
+Line 16 --- y2                      int16_t
+Line 17 --- z2                      int16_t
+Line 18 --- x3                      int16_t
+Line 19 --- y3                      int16_t
+Line 20 --- z3                      int16_t
+Line 21 --- x4                      int16_t
+Line 22 --- y4                      int16_t
+Line 23 --- z4                      int16_t
+Line 24 --- bApp_yaw                int32_t
+Line 25 --- bApp_pitch              int32_t
+Line 26 --- bApp_roll               int32_t
+Line 27 --- bApp_ax                 int16_t
+Line 28 --- bApp_ay                 int16_t
+Line 29 --- bApp_az                 int16_t
+Line 30 --- bApp_gx                 int16_t
+Line 31 --- bApp_gy                 int16_t
+Line 32 --- bApp_gz                 int16_t
+INFO_TAG
+0x0000079A
+AB&amp;T
+0xABE00001
+0x00000001
+data_husky
+data_husky
+END_TAG
+
+The data_husky.prj configuration file is correct
+
+ByteNumOut 0
+ByteNumIn  62
+PdoNumOut  0
+PdoNumIn   28
+
+Creating the data_husky.xml file
+
+PROJECT_TAG   data_husky.prj
+VENDOID_TAG   0000079A
+VEN_NAM_TAG   AB&amp;T
+PRO_COD_TAG   ABE00001
+REVISIO_TAG   00000001
+DEV_NAM_TAG   data_husky
+DEV_NAM_TAG   data_husky
+
+FIRST_TAG
+
+Input entries
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>bApp_yaw</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>bApp_pitch</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>bApp_roll</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>q1</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>q2</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>q3</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>q4</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>x1</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>9</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>y1</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>10</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>z1</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>11</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>x2</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>12</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>y2</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>13</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>z2</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>14</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>x3</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>15</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>y3</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>16</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>z3</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>17</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>x4</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>18</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>y4</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>19</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>z4</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>20</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>x</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>21</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>y</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>22</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>z</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>23</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_ax</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>24</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_ay</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>25</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_az</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>26</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_gx</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>27</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_gy</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>28</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_gz</Name>
+            <DataType>INT</DataType>
+          </Entry>
+
+LAST_TAG
+
+The data_husky.xml file has been created
+
+Creating the data_husky.h file
+
+#define CUST_BYTE_NUM_OUT	0
+#define CUST_BYTE_NUM_IN	62
+#define TOT_BYTE_NUM_ROUND_OUT	0
+#define TOT_BYTE_NUM_ROUND_IN	64
+
+
+Output entries
+
+Input entries
+		int32_t     bApp_yaw;
+		int32_t     bApp_pitch;
+		int32_t     bApp_roll;
+		int16_t     q1;
+		int16_t     q2;
+		int16_t     q3;
+		int16_t     q4;
+		int16_t     x1;
+		int16_t     y1;
+		int16_t     z1;
+		int16_t     x2;
+		int16_t     y2;
+		int16_t     z2;
+		int16_t     x3;
+		int16_t     y3;
+		int16_t     z3;
+		int16_t     x4;
+		int16_t     y4;
+		int16_t     z4;
+		int16_t     x;
+		int16_t     y;
+		int16_t     z;
+		int16_t     bApp_ax;
+		int16_t     bApp_ay;
+		int16_t     bApp_az;
+		int16_t     bApp_gx;
+		int16_t     bApp_gy;
+		int16_t     bApp_gz;
+
+The data_husky.h file has been created
+
+Creating the data_husky.bin file
+
+
+The data_husky.bin file has been created
