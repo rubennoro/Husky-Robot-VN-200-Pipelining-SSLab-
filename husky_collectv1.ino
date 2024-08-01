@@ -349,7 +349,11 @@ int16_t float_to_int(float var)
 //Transfers the data from EasyCAT to Computer
 void transfer_to_EasyCAT(uint16_t* output) { //collection of data to computer
   int i = 0;
-  
+
+  EASYCAT.BufferIn.Cust.bApp_yaw = send_yaw;
+  EASYCAT.BufferIn.Cust.bApp_pitch = send_pitch;
+  EASYCAT.BufferIn.Cust.bApp_roll = send_roll;
+	
   EASYCAT.BufferIn.Cust.x = output[i++];
   EASYCAT.BufferIn.Cust.y = output[i++];
   EASYCAT.BufferIn.Cust.z = output[i++];
@@ -369,6 +373,13 @@ void transfer_to_EasyCAT(uint16_t* output) { //collection of data to computer
   EASYCAT.BufferIn.Cust.x4 = output[i++];
   EASYCAT.BufferIn.Cust.y4 = output[i++];
   EASYCAT.BufferIn.Cust.z4 = output[i];
+  EASYCAT.BufferIn.Cust.bApp_gx = send_gx;
+  EASYCAT.BufferIn.Cust.bApp_gy = send_gy;
+  EASYCAT.BufferIn.Cust.bApp_gz = send_gz;
+  EASYCAT.BufferIn.Cust.bApp_ax = send_ax;
+  EASYCAT.BufferIn.Cust.bApp_ay = send_ay;
+  EASYCAT.BufferIn.Cust.bApp_az = send_az;
+
 
   /* IMU DATA
   EASYCAT.BufferIn.Cust.bApp_yaw = send_yaw;
