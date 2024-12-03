@@ -1,0 +1,243 @@
+
+Easy Configurator, configuration engine  V_3_3 
+
+log created on Tue Nov 19 15:36:51 2024
+
+Analyzing the project file
+
+Easy Configurator project t3pipeline.prj
+
+OUTPUTS_TAG
+INPUTS_TAG
+Line 5 --- posx                    float
+Line 6 --- posy                    float
+Line 7 --- posz                    float
+Line 8 --- q1                      float
+Line 9 --- q2                      float
+Line 10 --- q3                      float
+Line 11 --- q4                      float
+Line 12 --- rs1                     float
+Line 13 --- rs2                     float
+Line 14 --- rs3                     float
+Line 15 --- rs4                     float
+Line 16 --- bApp_yaw                int32_t
+Line 17 --- bApp_pitch              int32_t
+Line 18 --- bApp_roll               int32_t
+Line 19 --- bApp_ax                 int16_t
+Line 20 --- bApp_ay                 int16_t
+Line 21 --- bApp_az                 int16_t
+Line 22 --- bApp_gx                 int16_t
+Line 23 --- bApp_gy                 int16_t
+Line 24 --- bApp_gz                 int16_t
+INFO_TAG
+0x0000079A
+AB&amp;T
+0xDEADBEEF
+0x00000001
+t3pipeline
+t3pipeline
+END_TAG
+
+The t3pipeline.prj configuration file is correct
+
+ByteNumOut 0
+ByteNumIn  68
+PdoNumOut  0
+PdoNumIn   20
+
+Creating the t3pipeline.xml file
+
+PROJECT_TAG   t3pipeline.prj
+VENDOID_TAG   0000079A
+VEN_NAM_TAG   AB&amp;T
+PRO_COD_TAG   DEADBEEF
+REVISIO_TAG   00000001
+DEV_NAM_TAG   t3pipeline
+DEV_NAM_TAG   t3pipeline
+
+FIRST_TAG
+
+Input entries
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>posx</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>posy</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>posz</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>q1</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>q2</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>q3</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>q4</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>rs1</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>9</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>rs2</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>10</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>rs3</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>11</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>rs4</Name>
+            <DataType>REAL</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>12</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>bApp_yaw</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>13</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>bApp_pitch</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>14</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>bApp_roll</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>15</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_ax</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>16</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_ay</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>17</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_az</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>18</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_gx</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>19</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_gy</Name>
+            <DataType>INT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>20</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>bApp_gz</Name>
+            <DataType>INT</DataType>
+          </Entry>
+
+LAST_TAG
+
+The t3pipeline.xml file has been created
+
+Creating the t3pipeline.h file
+
+#define CUST_BYTE_NUM_OUT	0
+#define CUST_BYTE_NUM_IN	68
+#define TOT_BYTE_NUM_ROUND_OUT	0
+#define TOT_BYTE_NUM_ROUND_IN	68
+
+
+Output entries
+
+Input entries
+		float       posx;
+		float       posy;
+		float       posz;
+		float       q1;
+		float       q2;
+		float       q3;
+		float       q4;
+		float       rs1;
+		float       rs2;
+		float       rs3;
+		float       rs4;
+		int32_t     bApp_yaw;
+		int32_t     bApp_pitch;
+		int32_t     bApp_roll;
+		int16_t     bApp_ax;
+		int16_t     bApp_ay;
+		int16_t     bApp_az;
+		int16_t     bApp_gx;
+		int16_t     bApp_gy;
+		int16_t     bApp_gz;
+
+The t3pipeline.h file has been created
+
+Creating the t3pipeline.bin file
+
+
+The t3pipeline.bin file has been created
