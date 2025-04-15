@@ -58,7 +58,7 @@ long int i2c_time;
 void setup() {
   // put your setup code here, to run once:
 
-  Serial.begin(2000000);
+  Serial.begin(115200);
   pinMode(LED_BLUE, OUTPUT);
   while(!Serial){
 
@@ -173,7 +173,7 @@ void readBytes(byte* array, float* output){
     float* valuePtr = reinterpret_cast<float*>(&array[startIndex]); //4 byte increments casting
 
     output[i] = *valuePtr; // Access the `float` value from the byte array
-    
+    Serial.println(output[i]);
     //Function not working properly
     //reduceAccuracy(output[i]);
 
@@ -220,7 +220,7 @@ void rpc_print(){
     buffer += (char)RPC.read();  // Fill the buffer with characters
   }
   if (buffer.length() > 0) {
-    Serial.print(buffer);
+    Serial.println(buffer);
   }
 }
 
